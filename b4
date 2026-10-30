@@ -1,0 +1,21 @@
+2. Bối cảnh & Vấn đề
+
+- Nhóm của bạn quản lý 500GB dữ liệu video giám sát campus. Ổ cứng Laptop của các bạn chỉ có 256GB. Nếu đồng bộ toàn bộ về máy, SSD sẽ bị tràn ngay lập tức và gây treo phần mềm đồng bộ.
+
+3. Ràng buộc & Bẫy dữ liệu
+
+Bẫy: Dữ liệu video rất lớn, làm thế nào để đồng bộ lên Cloud mà không làm treo đường truyền Internet của cả nhà trọ hoặc bị đứt đoạn khi gập máy laptop?
+
+4. Yêu cầu đầu ra
+
+- Giải pháp kỹ thuật: Mô tả cách thiết lập tính năng Files On-Demand để chỉ tải file xuống khi cần mở thực tế.
+- Báo cáo dung lượng: Tính toán và chứng minh tính hiệu quả của giải pháp khi dung lượng Cloud lớn hơn dung lượng Local SSD nhiều lần.
+/////////////////////
+phần 1: cách thiết lập tính năng Files On-Demand để chỉ tải file xuống khi cần mở thực tế
+Cài đặt: Cài đặt Google Drive cho máy tính.
+Chọn chế độ: Vào Preferences, Google Drive.
+Chọn "Stream files" (Truyền phát tệp): Thay vì chọn "Mirror files" (Soi gương/Đồng bộ toàn bộ), bạn chọn Stream files.
+phần 2: Tính toán và chứng minh
+Về dung lượng: Giải pháp Files On-Demand giúp tiết kiệm 100% dung lượng SSD cho đến khi file được mở.
+Về vận hành: Chuyển đổi bài toán từ "Lưu trữ vật lý" (không thể đáp ứng) sang "Truy cập theo nhu cầu" (đáp ứng hoàn toàn).
+Kết luận: Khi Dung lượng Cloud > Dung lượng Local, Files On-Demand là giải pháp duy nhất khả thi, giúp nhóm làm việc với dữ liệu lớn mà không cần nâng cấp phần cứng.
